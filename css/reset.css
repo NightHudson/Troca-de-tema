@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body {
@@ -9,22 +10,20 @@ body {
     line-height: 1.6;
     min-height: 100vh;
 }
-
 .page {
     min-height: 100vh;
-    background-color: var(--bg-color);
+    background-color:var(--bg-color);
     color: var(--text-color);
 
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
-
-    transition: background-color var(--transition-time) ease,
+    transition: background-color var( --transition-time) ease, 
     color var(--transition-time) ease;
 }
 
-.contet {
+.content {
     text-align: center;
     max-width: 600px;
     padding: 20px;
@@ -39,9 +38,10 @@ h1 {
     line-height: 1.7;
     font-size: 1.1rem;
     opacity: 0.9;
-    transition: opacity var(--transition-time) ease;
+    transition: opacity var (--transition-time) ease;
 }
 
 .info-text:hover {
     opacity: 1;
+    
 }
