@@ -20,5 +20,12 @@ body {
     color: #f5f5f5;
 }
 
+.theme-toggle-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
 
 
