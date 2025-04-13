@@ -27,5 +27,7 @@ body {
     z-index: 1000;
 }
 
-
+#theme-toggle {
+    display: none;
+}
 
