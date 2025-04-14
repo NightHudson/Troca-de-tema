@@ -73,5 +73,9 @@ body {
     to { left: 3px; }
 }
 
-
+.page {
+    min-height: 100vh;
+    padding: 60px 20px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
 
