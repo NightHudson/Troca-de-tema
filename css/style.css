@@ -55,3 +55,23 @@ body {
     animation: slideOff 0.4s forwards;
 }
 
+#theme-toggle:checked + .theme-toggle-container .toggle-label {
+    background-color: #4f4f4f;
+}
+
+#theme-toggle:checked + .theme-toggle-container .toggle-label::after {
+    animation: slideOn 0.4s forwards;
+}
+
+@keyframes slideOn {
+    from { left: 3px; }
+    to { left: 33px; }
+}
+
+@keyframes slideOff {
+    from { left: 33px; }
+    to { left: 3px; }
+}
+
+
+
